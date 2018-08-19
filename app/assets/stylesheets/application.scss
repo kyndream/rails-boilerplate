@@ -10,6 +10,30 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+
  *= require_self
  */
+
+// This file should not contain anything but @import and comments
+
+// primary styling
+@import 'base/reset';
+@import '../fonts/open_sans';
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+
+// base
+@import 'base/typography';
+
+// abstracts
+@import 'abstracts/mixins';
+
+// components
+@import 'components/buttons';
+
+// layout
+@import 'layout/navigation';
+@import 'layout/footer';
+
+// pages
+@import 'pages/home/*';
