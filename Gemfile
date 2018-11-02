@@ -5,6 +5,7 @@ ruby '2.3.7'
 
 gem 'rails', '~> 5.2.1'
 gem 'bootsnap', require: false
+gem "loofah", ">= 2.2.3"
 
 # web server
 gem 'passenger'
